@@ -40,7 +40,7 @@ export class AuthPage implements OnInit {
         this.utilsSvc.presentToast({
           message: error.message,
           duration: 2500,
-          color: 'primary',
+          color: 'dark',
           position:'middle',
           icon: 'alert-circle-outline'
         })
@@ -72,11 +72,13 @@ export class AuthPage implements OnInit {
         
         this.utilsSvc.presentToast({
        //   message: 'Bienvenido ${user.name}',
-          message: 'Bienvenido a la app chingona',
+          message: 'Bienvenido ',
           duration: 1500,
-          color: 'primary',
+          color: 'dark',
           position:'middle',
-          icon: 'person-circle-outline'
+          icon: 'person-circle-outline',
+          
+
         })
 
     

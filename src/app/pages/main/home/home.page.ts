@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
 
+
+  public appPages = [
+    
+    { title: 'Home', url: '/home', icon: 'home' },
+    { title: 'Customers', url: '/customers', icon: 'accessibility' },
+
+    
+  ];
+
   constructor() { }
 
   ngOnInit() {
